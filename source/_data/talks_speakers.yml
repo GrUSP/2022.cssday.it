@@ -83,6 +83,11 @@ speaker_10: &emanuelecentola
   speaker_github_url: ""
   speaker_twitter_url: "https://twitter.com/Emmaboshi"
 
+speakers:
+  speaker_2: *emanuelecentola
+  speaker_1: *andreadecarolis
+  speaker_3: *giulialaco
+
 tracks:
   track_1: &track_1
     id: 1
