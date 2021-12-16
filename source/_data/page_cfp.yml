@@ -1,6 +1,6 @@
 intro:
   main_title: "Call for papers"
-  date_intro: "La call for paper è stata chiusa il "
+  date_intro: "La call for paper sarà aperta fino al "
   # NB la data è definita in `defaults`
   content_1: "Al cssday non si parlerà solo di CSS, ma di tutto quello che gravita intorno al mondo dei css e del web design."
   content_2: "Framework, metodologia di lavoro, User eXperience ed User Interface, Performance e coding standard sono solo alcuni dei temi che puoi portare."
@@ -8,7 +8,7 @@ more_info:
   title: "Perché proporre un talk?"
   description_1: "Avrai la possibilità di condividere le tue conoscenze e/o presentare il tuo caso di studio al pubblico. Puoi farti conoscere, costruire la tua rete professionale
   ed essere parte attiva della conversazione sugli argomenti che ti interessano."
-  description_2: "Se il tuo talk viene selezionato, potrai presentarlo di persona a Bologna. Ti offriremo l'accesso alla conferenza, una cena con team e speaker, e una notte in hotel (o una sponsorizzazione gratuita per la tua azienda).
+  description_2: "Se il tuo talk viene selezionato, potrai presentarlo di persona a Faenza. Ti offriremo l'accesso alla conferenza, una cena con team e speaker, e una notte in hotel (o una sponsorizzazione gratuita per la tua azienda).
   <a href='https://docs.google.com/forms/d/e/1FAIpQLSdxtgq1oWeEQYZ-YQmNto_oRgk5RY5SVOOJgy2C_ZiHntk58Q/viewform'>Vai al form</a> per leggere tutti i dettagli sul funzionamento della conferenza e le procedure di selezione dei talk."
 contact:
   email_intro: "Se vuoi chiederci informazioni, scrivi a "
