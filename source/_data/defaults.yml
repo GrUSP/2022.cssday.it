@@ -6,27 +6,27 @@
 # conference config
 conference:
   # Online-only conferences
-  is_online_only: true
+  is_online_only: false
   online_location: "online"
   online_location_title: "Internet"
   online_location_info: "La conferenza si svolge da remoto"
 
   # menu and general params
-  menu_buy_tickets_label: "Compra il biglietto"
-  buy_tickets_url: "https://www.eventbrite.com/e/biglietti-cssday-2021-130900796807"
+  menu_buy_tickets_label: "Partecipa"
+  buy_tickets_url: "http://cssday-2022.eventbrite.it/"
   # additional info for microdata / schema.org
-  #md_city: "Verona"
-  #md_province: "VR"
-  #md_postal_code: "37138"
-  #md_address: "Via Longhena 42"
+  #md_city: "Faenza"
+  #md_province: "RA"
+  #md_postal_code: "48018"
+  #md_address: "Via Carlo Cesare Scaletta, 10, 48018 Faenza RA"
   organizer_url: "http://grusp.org/"
   # contact email
   contact_email: "cssday@grusp.org"
   # these are for the hero section
   title_pre: ""
-  title: "cssday Digital Edition"
-  city: "online"
-  date: 2021-04-15T10:00+02:00
+  title: "cssday 2022"
+  city: "Faenza"
+  date: 2022-04-01T10:00+02:00
   # Use the next field to override the date in the hero
   hero_date_text:
   countdown_visible: true
@@ -47,12 +47,12 @@ conference:
   update_link_url: "https://google.com/"
   update_link_label: "link to google, just for the demo"
   # "call for papers" component. set the first parameter to true to make it appear in home page, false means hidden
-  cfp_open: false
+  cfp_open: true
   cfp_readmore_label: "Continua a leggere"
   cfp_open_label: "Proponi un talk entro il"
-  cfp_open_title: "Call For Papers aperta!"
-  cfp_deadline: 2021-01-31T23:59+01:00
-  cfp_register_label: "Invia la tua proposta"
+  cfp_open_title: "La Call For Paper è aperta!"
+  cfp_deadline: 2022-01-06T23:59+01:00
+  cfp_register_label: "Proponi un talk"
   cfp_register_aria_label: "Inviaci ora la tua proposta"
   # "general information" ("what is it?") component
   geninfo_visible: true
@@ -88,7 +88,7 @@ conference:
   newsletter_legal_url: "https://mailchimp.com/legal/"
   newsletter_legal_label: "Informazioni riguardo la privacy policy di Mailchimp"
   # "speakers" component. set the first parameter to true to make it appear in home page, false means hidden
-  speakers_visible: true
+  speakers_visible: false
   speakers_title: "Speaker"
   mcs_title: "MC"
   speaker_count_text:
@@ -105,7 +105,7 @@ conference:
     - "Metodologie"
   topics_payoff: "...e molto altro!"
   # "workshop" component. set the first parameter to true to make it appear in home page, false means hidden
-  workshop_visible: true
+  workshop_visible: false
   workshops_title: "workshop"
   workshops_tickets_label: "Acquista i biglietti"
   workshops_readmore_label: "Continua a leggere"
@@ -124,21 +124,21 @@ conference:
   # vimeo_base_url: "https://vimeo.com/channels/"
   # vimeo_url_suffix: "/embed"
   #   (embed YouTube playlist: prendere l'ID della lista dall'URL, la parte dopo '&list=', e metterla qui sotto)
-  youtube_playlist_id: "PLWK9j6ps_unnzawdRcS0h5O6if5f8mtCc"
+  youtube_playlist_id: "PLWK9j6ps_unkp5H3oUSzonh51Jze103Hc"
   #   (embed Vimeo showcase: prendere l'ID dello showcase e metterla qui sotto)
   # vimeo_showcase_id: "italiancssday"
   # Location section in home page. set the first parameter to true to make it appear in home page, false means hidden
   location_visible: false
-  location_name: "Hotel San Marco"
-  location_address: "Via Longhena 42, 37138 Verona (VE) Italy"
-  location_maps_url: "https://www.google.com/maps/place/Hotel+San+Marco+Fitness+Pool+%26+SPA/@45.4399961,10.9697441,17z/data=!3m1!4b1!4m8!3m7!1s0x4781e1e30a8be6af:0x8091b108e1d130c6!5m2!4m1!1i2!8m2!3d45.4399961!4d10.9719328"
+  location_name: "Cinema Teatro Sarti"
+  location_address: "Via Carlo Cesare Scaletta, 10, 48018 Faenza RA"
+  location_maps_url: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11424.934272024533!2d11.8804354!3d44.2845852!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xde16dcf939b49814!2sCinema%20Sarti!5e0!3m2!1sit!2sit!4v1639691332216!5m2!1sit!2sit"
   location_maps_label: "Get directions"
   location_readmore_label: "Read more"
   # image credits (l'esempio è per la hero del CSS Day!)
   venue_img_credits: ""
   # Sponsors section in home page. set the first parameter to true to make it appear in home page, false means hidden
   sponsors_visible: true
-  sponsor_title_home: "Sponsor"
+  sponsor_title_home: "Grazie al supporto di"
   # this is for the Community partners section in home page
   community_partners: true
   community_partners_title: "Community partner"
@@ -164,12 +164,13 @@ conference:
     2018: "2018"
     2019: "2019"
     2020: "2020"
+    2021: "2021"
   past_editions_videos_pre: "Tutti i video delle passate edizioni sono disponibili su "
   past_editions_videos_vimeo_label: "Vimeo"
   past_editions_videos_mid: " e "
   past_editions_videos_youtube_label: "YouTube"
   past_editions_videos_post: "."
-  footer_copy_text: "è &copy; del Grusp e del suo fantastico team"
+  footer_copy_text: "è &copy; del GrUSP e del suo fantastico team"
   footer_contact_text: "Contattaci "
   footer_links_pre: "Puoi leggere la nostra "
   footer_links_privacy_link_label: "privacy policy"

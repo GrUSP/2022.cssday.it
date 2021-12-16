@@ -4,89 +4,19 @@ schedule_under_construction_title: "Schedule under construction"
 schedule_under_construction_description: "We are still defining the schedule. Please be patient"
 
 # Speakers. I mixin "&nome" servono per indicare quali speaker partecipano a ogni talk, sotto
-speaker_9: &giuseppecaruso
+speaker_1: &speaker
   speaker_in_speaker_lists: true
-  speaker_name: Giuseppe Caruso
-  speaker_pic_filename: giuseppe-caruso.jpg
-  speaker_role: Front-end developer and mentor @ trivago
-  speaker_bio: "Father, developer, designer, photographer."
+  speaker_name:
+  speaker_pic_filename:
+  speaker_role:
+  speaker_bio: ""
   speaker_github_url: ""
-  speaker_twitter_url: "https://twitter.com/bonsaistudio"
-speaker_2: &matteoguidotto
-  speaker_in_speaker_lists: true
-  speaker_name: Matteo Guidotto
-  speaker_pic_filename: matteo-guidotto.jpg
-  speaker_role: Demand manager coordinator
-  speaker_bio: "Dopo anni da stagista nello sviluppo frontend sono passato al lato oscuro dei manager, oggi gestisco un team di demand manager di un’azienda IT in ambito CRM e AI."
-  speaker_github_url: ""
-  speaker_twitter_url: "https://twitter.com/J8matteo"
-speaker_3: &francescoimprota
-  speaker_in_speaker_lists: true
-  speaker_name: Francesco Improta
-  speaker_pic_filename: francesco-improta.jpg
-  speaker_role: Head of Design @ Citynews spa
-  speaker_bio: "Vivo e lavoro a Roma, città in cui sono nato nel 1981. Mi occupo di design di prodotti digitali. Nella vita reale sono papà di due bambini e un appassionato di astronomia. Le montagne sono il luogo dove vado per staccare dalla quotidianità."
-  speaker_github_url: ""
-  speaker_twitter_url: "https://twitter.com/zetareticoli"
-speaker_4: &matteolullo
-  speaker_in_speaker_lists: true
-  speaker_name: Matteo Lullo
-  speaker_pic_filename: matteo-lullo.jpg
-  speaker_role: Front End developer @ Sky Italia
-  speaker_bio: "Sono un giovane Sviluppatore Front-End, Light Designer, Bassista. Geek incallito con base a Inzago(MI). Sono molto curioso e mi sento sempre come un pilota della RIBELLIONE pronto ad assaltare La Morte Nera in qualsiasi momento."
-  speaker_github_url: ""
-  speaker_twitter_url: ""
-speaker_5: &lauramorabito
-  speaker_in_speaker_lists: true
-  speaker_name: Laura Morabito
-  speaker_pic_filename: laura-morabito.jpg
-  speaker_role: UX Designer @ Spindox - Chapter Lead @ Ladies that UX Milan
-  speaker_bio: "Di giorno UX designer e consulente, di notte sono Chapter Lead di Ladies That UX Milan, il primo capitolo italiano di Ladies that UX! Ho un passato da studentessa di letteratura russa e uno da web designer. Vivo a Milano, ma mi piace il mare."
-  speaker_github_url: ""
-  speaker_twitter_url: "https://twitter.com/Lemmemente"
-speaker_6: &lorenzospinelli
-  speaker_in_speaker_lists: true
-  speaker_name: Lorenzo	Spinelli
-  speaker_pic_filename: lorenzo-spinelli.jpg
-  speaker_role: "I write code @ register.it"
-  speaker_bio: "Scrivo codice JavaScript e Java da mille anni e sono appassionato di UIX."
-speaker_7: &emanueladamiani
-  speaker_in_speaker_lists: true
-  speaker_name: Emanuela Damiani
-  speaker_pic_filename: emanuela-damiani.jpg
-  speaker_role: Staff User Experience Designer @ Mozilla, Firefox
-  speaker_bio: "Internet è il mio mestiere."
-  speaker_github_url: ""
-  speaker_twitter_url: "https://twitter.com/brassy"
-speaker_8: &giulialaco
-  speaker_in_speaker_lists: true
-  speaker_name: Giulia Laco
-  speaker_pic_filename: giulia-laco.jpg
-  speaker_role: Web designer/developer @ WebMatter
-  speaker_bio: "Attratta dal Web design fin dagli esordi, sono stata webmaster in azienda nell’altro secolo e Web designer/developer in questo, appassionandomi ciclicamente a nuove discipline: Web Marketing, Architettura dell’Informazione, SEO, UX e Web Typography – per citarne alcune."
-  speaker_github_url: ""
-  speaker_twitter_url: "https://twitter.com/webmatter_it"
-speaker_1: &andreadecarolis
-  speaker_in_speaker_lists: true
-  speaker_name: Andrea De Carolis
-  speaker_pic_filename: andrea-decarolis.jpg
-  speaker_role: MASTER OF CEREMONIES - Front-end developer @ Modo
-  speaker_bio: "Sono uno dei soci di Modo, un'agenzia specializzata in front end e ci piace dare il nostro supporto alle community attive nel settore. Aiuto nell'organizzazione del Bologna front end, un meetup sul front end dove puoi entrare solo se fai fatica a pronunciare la Z."
-  speaker_github_url: ""
-  speaker_twitter_url: "https://twitter.com/decarola"
-speaker_10: &emanuelecentola
-  speaker_in_speaker_lists: true
-  speaker_name: Emanuele Centola
-  speaker_pic_filename: emanuele-centola.jpg
-  speaker_role: Art Director @ Emmaboshi
-  speaker_bio: "Sono un grafico post-maniera di Bologna. Da vent’anni progetto identità visive originali (tipo loghi, immagini coordinate ecc) e amo questo cosiddetto webbe. Sono quello che di solito ti manda il file di Sketch."
-  speaker_github_url: ""
-  speaker_twitter_url: "https://twitter.com/Emmaboshi"
+  speaker_twitter_url: "https://twitter.com/"
+
 
 speakers:
-  speaker_2: *emanuelecentola
-  speaker_1: *andreadecarolis
-  speaker_3: *giulialaco
+  speaker_1: *speaker
+
 
 tracks:
   track_1: &track_1
@@ -107,159 +37,159 @@ tracks:
 #   "other" -- altro; si inseriranno solo ora, titolo, descrizione facoltativa
 # NB tutti i "talk" devono avere una track. I "service" e i "keynote" dovrebbero avere track_1
 
-days:
-  day_1:
-    date: 2021-03-11T09:15+01:00
-    title: "Day 1"
-    talks:
-      talk_1:
-        item_type: "service"
-        track: *track_1
-        start_datetime: 2021-03-11T09:15+01:00
-        end_datetime: 2020-03-11T09:30+01:00
-        talk_title: "Welcome!"
-      talk_2:
-        item_type: "service"
-        track: *track_1
-        start_datetime: 2021-03-11T11:15+01:00
-        end_datetime: 2021-03-11T11:45+01:00
-        talk_title: "Pausa Caffè"
-        service_icon: "coffee"
-      talk_3:
-        item_type: "talk"
-        track: *track_1
-        start_datetime: 2021-03-11T17:15+01:00
-        end_datetime: 2021-03-11T18:15+01:00
-        talk_title: "Don’t be right, be fit!"
-        talk_description: "Come mai è così difficile fare interfacce usabili e performanti?
-          A volte dobbiamo implementare e seguire il design system, stabilire i nostri tokens, creare custom tools; e qualche volta è sufficiente mettere su una bella paginetta.
-          Certe volte la perfomance è la cosa più importante, altre volte basta che funzioni. A volte dobbiamo procedere con dei progetti solo se la ricerca mostra che quello che stiamo facendo ha un certo valore. Altre volte, dobbiamo lanciare una feature o un prodotto anche senza.
-          Non esiste giusto o sbagliato. Esiste solo il right fit. Preparatevi a sudare perché nella sua sessione, Emanuela Damiani condividerà la sua esperienza diretta sul perché non esiste una formula magica per essere fit, ma capendo il contesto ed il livello di fit-ness in cui ci troviamo possiamo avere il maggior impatto possibile sui progetti a cui collaboriamo."
-        speakers:
-          speaker_1: *emanueladamiani
-      talk_4:
-        item_type: "talk"
-        track: *track_1
-        start_datetime: 2021-03-11T09:30+01:00
-        end_datetime: 2021-03-11T10:15+01:00
-        talk_title: Functional everything. How functional classes are changing the front-end world.
-        talk_description: "Tailwind è il 'new kid on the block', ma bisogna evitare gli errori che hanno spinto alla creazione di librerie come CSSinJS e superare alcuni limiti relativi all'implementazione stessa di Tailwind. Vedremo come l'incapsulamento delle classi in proxy components e l'uso di CSS modules possono aiutarci a programmare un'architettura per componenti 'col vento in poppa'."
-      # talk_video_url: ""
-        speakers:
-          speaker_1: *giuseppecaruso
-      talk_5:
-        item_type: "talk"
-        track: *track_1
-        start_datetime: 2021-03-11T16:30+01:00
-        end_datetime: 2021-03-11T17:15+01:00
-        talk_title: AI & Web a scary hope
-        talk_description: "Il talk racconta come l’AI sta cambiando il modo di progettare e sviluppare il web, prima di tutto l’impatto sugli strumenti di design e la generazione del design stesso,la collaborazione tra designer e developer infine i tool che permettono di produrre (buon?) codice."
-      # talk_video_url: ""
-        speakers:
-          speaker_1: *matteoguidotto
-      talk_6:
-        item_type: "service"
-        track: *track_1
-        start_datetime: 2021-03-11T16:00+01:00
-        end_datetime: 2020-09-16T16:30+01:00
-        talk_title: "Pausa Caffè"
-        service_icon: "coffee"
-      talk_7:
-        item_type: "talk"
-        track: *track_1
-        start_datetime: 2021-03-11T10:15+01:00
-        end_datetime: 2021-03-11T11:15+01:00
-        talk_title: CSS Custom Properties all'ennesima potenza
-        talk_description: "Le CSS Custom Properties, o più semplicemente variabili CSS, sono tra noi da qualche anno e probabilmente le avrai già usate in qualche progetto. La mia domanda è: le usiamo al massimo delle loro potenzialità? Oppure seguiamo vecchie abitudini trascurando opportunità in cui queste potrebbero ridurre significativamente la quantità di codice che scriviamo? Diamo un'occhiata ai principali casi d'uso in cui le variabili CSS permettono di realizzare cose interessanti e come integrarle al meglio in un design system."
-      # talk_video_url: ""
-        speakers:
-          speaker_1: *francescoimprota
-      talk_8:
-        item_type: "talk"
-        track: *track_1
-        start_datetime: 2021-03-11T11:45+01:00
-        end_datetime: 2021-03-11T12:30+01:00
-        talk_title: WEB VITALS - Il web che si muove alla velocità della Luce
-        talk_description: "In un mondo di connessioni veloci con utenti sempre più esigenti, Google ci fornisce gli strumenti per capire come 'tenere in forma' le nostre pagine web. Tra KPIS e ottimizzazioni, uno sguardo a come le performance sono core nello sviluppo dei nostri canali digitali."
-        speakers:
-          speaker_1: *matteolullo
-      talk_9:
-        item_type: "talk"
-        track: *track_1
-        start_datetime: 2021-03-11T14:15+01:00
-        end_datetime: 2021-03-11T15:15+01:00
-        talk_title: 10 principi di UI design che abbiamo già incontrato, senza saperlo.
-        talk_description: "Cosa ha a che fare l’inspector di un browser web con la distinzione fra 'recognition' e 'recall'? Perché è così importante che la documentazione di Bootstrap offra sia una navigazione gerarchica che la barra di ricerca? Perché il vecchio widget 'block' di Flutter si chiama adesso 'list-view'?
-Ma soprattutto cos’è quello strano piacere che nasce dal seguire il fattorino di Just Eat sulla mappa, se comunque lo sappiamo che la nostra pizza arriverà alle 22.10?
-Esiste una manciata di regole su cui si basano le interfacce di tutti i prodotti digitali che sopravvivono alle aspettative dei loro utenti.
-In questo talk esploriamo euristiche e golden rules dello UI design a partire da esperienze quotidiane, e ne indaghiamo le basi psicologiche e cognitive.
-Impariamo così a conoscere e applicare le scelte di design che hanno condizionato positivamente le nostre esperienze utente."
-        speakers:
-          speaker_1: *lauramorabito
-      talk_10:
-        item_type: "talk"
-        track: *track_1
-        start_datetime: 2021-03-11T15:15+01:00
-        end_datetime: 2021-03-11T16:00+01:00
-        talk_title: Ui framework incompatibility
-        talk_description: "Finalmente il designer ha consegnato i mockup della nuova app. Ma.. ..Acciderbolina! Il framework che utiliziamo non ha quei bottoni stondati e lunghi.
-Se il designer li vuole così, dobbiamo customizzare il framework... ...Un mese dopo: Abbiamo finito di customizzare ed estendere il framework. Adesso fa schifo! E a volte non funziona su Internet Explorer.
-Non so se si è capito, ma in questo talk parleremo di come affrontare l'incompatibilità tra la UI di una applicazione e il framework scelto per realizzarla.
-Vi faccio un esempio: se il designer vuole i pulsanti stondati ma il framework ce li ha quadrati, cosa si deve fare? Come si risolve? Chi ha ragione? Dobbiamo cambiare la grafica o modificare il framework? Dobbiamo cambiare framework? Dobbiamo cambiare designer? o sviluppatori? I framework UI sono necessari?"
-        speakers:
-          speaker_1: *lorenzospinelli
-      talk_11:
-        item_type: "service"
-        track: *track_1
-        start_datetime: 2021-03-11T18:15+01:00
-        end_datetime: 2021-03-11T18:30+01:00
-        talk_title: "Ciao dal GrUSP"
-      talk_12:
-        item_type: "service"
-        track: *track_1
-        start_datetime: 2021-03-11T13:00+01:00
-        end_datetime: 2021-03-11T14:15+01:00
-        talk_title: "Pausa Pranzo"
-        service_icon: "cutlery"
-      talk_13:
-        item_type: "talk"
-        track: *track_1
-        start_datetime: 2021-03-11T12:30+01:00
-        end_datetime: 2021-03-11T13:00+01:00
-        talk_title: "E i font, come li scegli? Conversazioni semiserie tra developer e designer"
-        talk_description: "Parliamo di tipografia web e font variabili"
-        speakers:
-          speaker_1: *giulialaco
-          speaker_2: *andreadecarolis
-          speaker_3: *emanuelecentola
+# days:
+#   day_1:
+#     date: 2021-03-11T09:15+01:00
+#     title: "Day 1"
+#     talks:
+#       talk_1:
+#         item_type: "service"
+#         track: *track_1
+#         start_datetime: 2021-03-11T09:15+01:00
+#         end_datetime: 2020-03-11T09:30+01:00
+#         talk_title: "Welcome!"
+#       talk_2:
+#         item_type: "service"
+#         track: *track_1
+#         start_datetime: 2021-03-11T11:15+01:00
+#         end_datetime: 2021-03-11T11:45+01:00
+#         talk_title: "Pausa Caffè"
+#         service_icon: "coffee"
+#       talk_3:
+#         item_type: "talk"
+#         track: *track_1
+#         start_datetime: 2021-03-11T17:15+01:00
+#         end_datetime: 2021-03-11T18:15+01:00
+#         talk_title: "Don’t be right, be fit!"
+#         talk_description: "Come mai è così difficile fare interfacce usabili e performanti?
+#           A volte dobbiamo implementare e seguire il design system, stabilire i nostri tokens, creare custom tools; e qualche volta è sufficiente mettere su una bella paginetta.
+#           Certe volte la perfomance è la cosa più importante, altre volte basta che funzioni. A volte dobbiamo procedere con dei progetti solo se la ricerca mostra che quello che stiamo facendo ha un certo valore. Altre volte, dobbiamo lanciare una feature o un prodotto anche senza.
+#           Non esiste giusto o sbagliato. Esiste solo il right fit. Preparatevi a sudare perché nella sua sessione, Emanuela Damiani condividerà la sua esperienza diretta sul perché non esiste una formula magica per essere fit, ma capendo il contesto ed il livello di fit-ness in cui ci troviamo possiamo avere il maggior impatto possibile sui progetti a cui collaboriamo."
+#         speakers:
+#           speaker_1: *emanueladamiani
+#       talk_4:
+#         item_type: "talk"
+#         track: *track_1
+#         start_datetime: 2021-03-11T09:30+01:00
+#         end_datetime: 2021-03-11T10:15+01:00
+#         talk_title: Functional everything. How functional classes are changing the front-end world.
+#         talk_description: "Tailwind è il 'new kid on the block', ma bisogna evitare gli errori che hanno spinto alla creazione di librerie come CSSinJS e superare alcuni limiti relativi all'implementazione stessa di Tailwind. Vedremo come l'incapsulamento delle classi in proxy components e l'uso di CSS modules possono aiutarci a programmare un'architettura per componenti 'col vento in poppa'."
+#       # talk_video_url: ""
+#         speakers:
+#           speaker_1: *giuseppecaruso
+#       talk_5:
+#         item_type: "talk"
+#         track: *track_1
+#         start_datetime: 2021-03-11T16:30+01:00
+#         end_datetime: 2021-03-11T17:15+01:00
+#         talk_title: AI & Web a scary hope
+#         talk_description: "Il talk racconta come l’AI sta cambiando il modo di progettare e sviluppare il web, prima di tutto l’impatto sugli strumenti di design e la generazione del design stesso,la collaborazione tra designer e developer infine i tool che permettono di produrre (buon?) codice."
+#       # talk_video_url: ""
+#         speakers:
+#           speaker_1: *matteoguidotto
+#       talk_6:
+#         item_type: "service"
+#         track: *track_1
+#         start_datetime: 2021-03-11T16:00+01:00
+#         end_datetime: 2020-09-16T16:30+01:00
+#         talk_title: "Pausa Caffè"
+#         service_icon: "coffee"
+#       talk_7:
+#         item_type: "talk"
+#         track: *track_1
+#         start_datetime: 2021-03-11T10:15+01:00
+#         end_datetime: 2021-03-11T11:15+01:00
+#         talk_title: CSS Custom Properties all'ennesima potenza
+#         talk_description: "Le CSS Custom Properties, o più semplicemente variabili CSS, sono tra noi da qualche anno e probabilmente le avrai già usate in qualche progetto. La mia domanda è: le usiamo al massimo delle loro potenzialità? Oppure seguiamo vecchie abitudini trascurando opportunità in cui queste potrebbero ridurre significativamente la quantità di codice che scriviamo? Diamo un'occhiata ai principali casi d'uso in cui le variabili CSS permettono di realizzare cose interessanti e come integrarle al meglio in un design system."
+#       # talk_video_url: ""
+#         speakers:
+#           speaker_1: *francescoimprota
+#       talk_8:
+#         item_type: "talk"
+#         track: *track_1
+#         start_datetime: 2021-03-11T11:45+01:00
+#         end_datetime: 2021-03-11T12:30+01:00
+#         talk_title: WEB VITALS - Il web che si muove alla velocità della Luce
+#         talk_description: "In un mondo di connessioni veloci con utenti sempre più esigenti, Google ci fornisce gli strumenti per capire come 'tenere in forma' le nostre pagine web. Tra KPIS e ottimizzazioni, uno sguardo a come le performance sono core nello sviluppo dei nostri canali digitali."
+#         speakers:
+#           speaker_1: *matteolullo
+#       talk_9:
+#         item_type: "talk"
+#         track: *track_1
+#         start_datetime: 2021-03-11T14:15+01:00
+#         end_datetime: 2021-03-11T15:15+01:00
+#         talk_title: 10 principi di UI design che abbiamo già incontrato, senza saperlo.
+#         talk_description: "Cosa ha a che fare l’inspector di un browser web con la distinzione fra 'recognition' e 'recall'? Perché è così importante che la documentazione di Bootstrap offra sia una navigazione gerarchica che la barra di ricerca? Perché il vecchio widget 'block' di Flutter si chiama adesso 'list-view'?
+# Ma soprattutto cos’è quello strano piacere che nasce dal seguire il fattorino di Just Eat sulla mappa, se comunque lo sappiamo che la nostra pizza arriverà alle 22.10?
+# Esiste una manciata di regole su cui si basano le interfacce di tutti i prodotti digitali che sopravvivono alle aspettative dei loro utenti.
+# In questo talk esploriamo euristiche e golden rules dello UI design a partire da esperienze quotidiane, e ne indaghiamo le basi psicologiche e cognitive.
+# Impariamo così a conoscere e applicare le scelte di design che hanno condizionato positivamente le nostre esperienze utente."
+#         speakers:
+#           speaker_1: *lauramorabito
+#       talk_10:
+#         item_type: "talk"
+#         track: *track_1
+#         start_datetime: 2021-03-11T15:15+01:00
+#         end_datetime: 2021-03-11T16:00+01:00
+#         talk_title: Ui framework incompatibility
+#         talk_description: "Finalmente il designer ha consegnato i mockup della nuova app. Ma.. ..Acciderbolina! Il framework che utiliziamo non ha quei bottoni stondati e lunghi.
+# Se il designer li vuole così, dobbiamo customizzare il framework... ...Un mese dopo: Abbiamo finito di customizzare ed estendere il framework. Adesso fa schifo! E a volte non funziona su Internet Explorer.
+# Non so se si è capito, ma in questo talk parleremo di come affrontare l'incompatibilità tra la UI di una applicazione e il framework scelto per realizzarla.
+# Vi faccio un esempio: se il designer vuole i pulsanti stondati ma il framework ce li ha quadrati, cosa si deve fare? Come si risolve? Chi ha ragione? Dobbiamo cambiare la grafica o modificare il framework? Dobbiamo cambiare framework? Dobbiamo cambiare designer? o sviluppatori? I framework UI sono necessari?"
+#         speakers:
+#           speaker_1: *lorenzospinelli
+#       talk_11:
+#         item_type: "service"
+#         track: *track_1
+#         start_datetime: 2021-03-11T18:15+01:00
+#         end_datetime: 2021-03-11T18:30+01:00
+#         talk_title: "Ciao dal GrUSP"
+#       talk_12:
+#         item_type: "service"
+#         track: *track_1
+#         start_datetime: 2021-03-11T13:00+01:00
+#         end_datetime: 2021-03-11T14:15+01:00
+#         talk_title: "Pausa Pranzo"
+#         service_icon: "cutlery"
+#       talk_13:
+#         item_type: "talk"
+#         track: *track_1
+#         start_datetime: 2021-03-11T12:30+01:00
+#         end_datetime: 2021-03-11T13:00+01:00
+#         talk_title: "E i font, come li scegli? Conversazioni semiserie tra developer e designer"
+#         talk_description: "Parliamo di tipografia web e font variabili"
+#         speakers:
+#           speaker_1: *giulialaco
+#           speaker_2: *andreadecarolis
+#           speaker_3: *emanuelecentola
 
-  # day_2:
-  #   date: 2020-09-17T09:00
-  #   title: "Day 2"
-  #   talks:
-  #     talk_1:
-  #       item_type: "service"
-  #       start_datetime: 2020-09-16T09:00
-  #       end_datetime: 2020-09-16T09:30
-  #       talk_title: "Welcome Coffee"
-  #       service_icon: "coffee"
-  #     talk_2:
-  #       track: *track_1
-  #       item_type: "talk"
-  #       start_datetime: 2020-09-17T09:30
-  #       end_datetime: 2020-09-17T10:45
-  #       talk_title: "This is a talk at the beginning of the second day"
-  #       talk_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-  #       talk_video_url:
-  #       speakers:
-  #         speaker_1: *regular_speaker
-  #     talk_3:
-  #       track: *track_2
-  #       item_type: "talk"
-  #       start_datetime: 2020-09-17T09:30
-  #       end_datetime: 2020-09-17T10:45
-  #       talk_title: "This is a talk in the second day, track 2"
-  #       talk_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-  #       talk_video_url:
-  #       speakers:
-  #         speaker_1: *regular_speaker
+#   # day_2:
+#   #   date: 2020-09-17T09:00
+#   #   title: "Day 2"
+#   #   talks:
+#   #     talk_1:
+#   #       item_type: "service"
+#   #       start_datetime: 2020-09-16T09:00
+#   #       end_datetime: 2020-09-16T09:30
+#   #       talk_title: "Welcome Coffee"
+#   #       service_icon: "coffee"
+#   #     talk_2:
+#   #       track: *track_1
+#   #       item_type: "talk"
+#   #       start_datetime: 2020-09-17T09:30
+#   #       end_datetime: 2020-09-17T10:45
+#   #       talk_title: "This is a talk at the beginning of the second day"
+#   #       talk_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+#   #       talk_video_url:
+#   #       speakers:
+#   #         speaker_1: *regular_speaker
+#   #     talk_3:
+#   #       track: *track_2
+#   #       item_type: "talk"
+#   #       start_datetime: 2020-09-17T09:30
+#   #       end_datetime: 2020-09-17T10:45
+#   #       talk_title: "This is a talk in the second day, track 2"
+#   #       talk_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+#   #       talk_video_url:
+#   #       speakers:
+#   #         speaker_1: *regular_speaker
