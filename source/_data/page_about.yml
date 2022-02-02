@@ -29,13 +29,17 @@ team:
       pic_filename: "fullo.jpg"
     member_2:
       name: "Giulia Tosato"
-      role: "boss in charge"
+      role: "Event manager"
       pic_filename: "giulia.jpg"
     member_3:
       name: "Giovanna Ferrari"
-      role: "sponsor management"
+      role: "Sponsor manager"
       pic_filename: "giovanna.jpg"
     member_4:
       name: "Michela Bertaina"
-      role: "Community management"
+      role: "Community manager"
       pic_filename: "michela.png"
+    member_5:
+      name: "Ruggero Landolina"
+      role: "Community supporter"
+      pic_filename: "ruggero.png"
