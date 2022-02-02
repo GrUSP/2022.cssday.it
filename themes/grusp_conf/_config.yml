@@ -6,7 +6,7 @@ language: "it"
 # main menu navigation
 menu:
   welcome: welcome
-  # talks_speakers: talk
+  talks_speakers: talk
   # scommentare per generare pagina
   # schedule: programma
   # menu item for workshop
@@ -23,7 +23,7 @@ welcome_submenu:
   about: about
   coc: codice di condotta
   scholarships: scholarship
-  where: dove
+  where: dove e come
   # delete this row to take out of the menu
   # cfp: call for paper
 

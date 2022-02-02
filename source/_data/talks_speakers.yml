@@ -1,22 +1,87 @@
 # NB impostare a `true` per generare la pagina, a `false` per NON generarla
-generate_schedule_page: true
+generate_schedule_page: false
 schedule_under_construction_title: "Schedule under construction"
 schedule_under_construction_description: "We are still defining the schedule. Please be patient"
 
 # Speakers. I mixin "&nome" servono per indicare quali speaker partecipano a ogni talk, sotto
-speaker_1: &speaker
+speaker_1: &massimoartizzu
   speaker_in_speaker_lists: true
-  speaker_name:
-  speaker_pic_filename:
-  speaker_role:
+  speaker_name: Massimo Artizzu
+  speaker_pic_filename: massimo-artizzu.png
+  speaker_role: "Web Dev @ Antreem"
+  speaker_bio: "CSS Zen Garden mi colpì sulla via di Damasco ai tempi di quando stavo imparando a sviluppare per il web. Da allora, il CSS ha fatto passi da gigante, ma cercare di capirne la potenza è sempre stato un mio pallino."
+  speaker_github_url: "https://github.com/MaxArt2501"
+  speaker_twitter_url: "https://twitter.com/MaxArt2501"
+speaker_2: &dianabernabei
+  speaker_in_speaker_lists: true
+  speaker_name: Diana Bernabei
+  speaker_pic_filename: diana-bernabei.png
+  speaker_role: "Frontend Developer & UI/UX Designer Freelance"
+  speaker_bio: "Sono una frontend developer freelance, UI/UX designer e community manager. Nel tempo libero mi piace creare contenuti e fare streaming. Grazie alle community ho scoperto la mia passione per il networking e l'accessibilità."
+  speaker_github_url: "https://github.com/dianaberna"
+  speaker_twitter_url: "https://twitter.com/dianabernabei"
+speaker_3: &giuseppecaruso
+  speaker_in_speaker_lists: true
+  speaker_name: Giuseppe Caruso
+  speaker_pic_filename: giuseppe-caruso.png
+  speaker_role: "Software Engineer @ Smartly.io"
+  speaker_bio: "Mi occupo di sviluppo web da quando il framework più usato per il front-end erano le tabelle e spacer.gif non era ancora un ricordo. Oggi mi occupo perlopiù di sviluppo di Design System, web semantico, accessibilità, e relative architetture."
+  speaker_github_url: "https://github.com/carusog"
+  speaker_twitter_url: "https://twitter.com/bonsaistudio"
+speaker_4: &davidedipumpo
+  speaker_in_speaker_lists: true
+  speaker_name: Davide Di Pumpo
+  speaker_pic_filename: davide-dipumpo.png
+  speaker_role: "Frontend Lead @ Tot"
+  speaker_bio: "Mi occupo di progettare e sviluppare siti e web application. C'ho una fissa da papà castoro."
+  speaker_github_url: "https://github.com/MakhBeth"
+  speaker_twitter_url: "https://twitter.com/makhbeth"
+speaker_5: &mikilombardi
+  speaker_in_speaker_lists: true
+  speaker_name: Miki Lombardi
+  speaker_pic_filename: miki-lombardi.png
+  speaker_role: "Full Stack Engineer @ Growens, BU Mailup and Founder @ Schrodinger Hat"
+  speaker_bio: "Sono un 'passion driven' developer guidato dalla creatività che ha un sacco di altre passioni: basket, ciclismo, fotografia sono solo alcune di queste."
+  speaker_github_url: "	https://GitHub.com/thejoin95"
+speaker_6: &emanuelemacri
+  speaker_in_speaker_lists: true
+  speaker_name: Emanuele Macri
+  speaker_pic_filename: emanuele-macri.png
+  speaker_role: "UI Developer @ Prima Assicurazioni"
+  speaker_bio: "Sono uno UI Developer con un passato da designer, mi piace essere eclettico, non sempre con buoni risultati. Mi piace ascoltare musica -per lo più brutta-, il cinema e i videogame."
+speaker_7: &luigipatricelli
+  speaker_in_speaker_lists: true
+  speaker_name: Luigi Patricelli
+  speaker_pic_filename: luigi-patricelli.png
+  speaker_role: "UI/UX Project Lead @ Injenia"
+  speaker_bio: "Lavoro come responsabile UI/UX di prodotto @Injenia, ho un passato da sviluppatore front-end e prima ancora da rapper. Appassionato di videogame, cultura hip hop e giochi di parole."
+speaker_8: &andreaverlicchi
+  speaker_in_speaker_lists: true
+  speaker_name: Andrea Verlicchi
+  speaker_pic_filename: andrea-verlicchi.png
+  speaker_role: "Web Performance Engineer @ Netcentric"
+  speaker_bio: "Inizia la sua carriera come programmatore full-stack ed inizia a lavorare come front-end developer nel 2011 in YOOX NET-A-PORTER GROUP, dove poi diviene front-end architect ed in seguito, grazie alla sua passione per l'esperienza utente, si specializza nell'ottimizzazione delle performance web. Fan dell'open source e creatore di vanilla-lazyload, Andrea ha già partecipato come speaker ad un paio di edizioni di successo del CSS Day, oltre che che ad altre conferenze e meetup in Italia e all'estero."
+  speaker_github_url: "https://github.com/verlok"
+  speaker_twitter_url: "https://twitter.com/verlok"
+speaker_9: &matteoguidotto
+  speaker_in_speaker_lists: true
+  speaker_name: Matteo Guidotto
+  speaker_pic_filename: matteo-guidotto.png
+  speaker_role: "MASTER OF CEREMONY - Product delivery Manager @ Central Reach"
   speaker_bio: ""
-  speaker_github_url: ""
-  speaker_twitter_url: "https://twitter.com/"
+  is_mc: true
 
 
 speakers:
-  speaker_1: *speaker
-
+  speaker_1: *massimoartizzu
+  speaker_2: *dianabernabei
+  speaker_3: *giuseppecaruso
+  speaker_4: *davidedipumpo
+  speaker_5: *mikilombardi
+  speaker_6: *emanuelemacri
+  speaker_7: *luigipatricelli
+  speaker_8: *andreaverlicchi
+  speaker_9: *matteoguidotto
 
 tracks:
   track_1: &track_1
@@ -37,159 +102,128 @@ tracks:
 #   "other" -- altro; si inseriranno solo ora, titolo, descrizione facoltativa
 # NB tutti i "talk" devono avere una track. I "service" e i "keynote" dovrebbero avere track_1
 
-# days:
-#   day_1:
-#     date: 2021-03-11T09:15+01:00
-#     title: "Day 1"
-#     talks:
-#       talk_1:
-#         item_type: "service"
-#         track: *track_1
-#         start_datetime: 2021-03-11T09:15+01:00
-#         end_datetime: 2020-03-11T09:30+01:00
-#         talk_title: "Welcome!"
-#       talk_2:
-#         item_type: "service"
-#         track: *track_1
-#         start_datetime: 2021-03-11T11:15+01:00
-#         end_datetime: 2021-03-11T11:45+01:00
-#         talk_title: "Pausa Caffè"
-#         service_icon: "coffee"
-#       talk_3:
-#         item_type: "talk"
-#         track: *track_1
-#         start_datetime: 2021-03-11T17:15+01:00
-#         end_datetime: 2021-03-11T18:15+01:00
-#         talk_title: "Don’t be right, be fit!"
-#         talk_description: "Come mai è così difficile fare interfacce usabili e performanti?
-#           A volte dobbiamo implementare e seguire il design system, stabilire i nostri tokens, creare custom tools; e qualche volta è sufficiente mettere su una bella paginetta.
-#           Certe volte la perfomance è la cosa più importante, altre volte basta che funzioni. A volte dobbiamo procedere con dei progetti solo se la ricerca mostra che quello che stiamo facendo ha un certo valore. Altre volte, dobbiamo lanciare una feature o un prodotto anche senza.
-#           Non esiste giusto o sbagliato. Esiste solo il right fit. Preparatevi a sudare perché nella sua sessione, Emanuela Damiani condividerà la sua esperienza diretta sul perché non esiste una formula magica per essere fit, ma capendo il contesto ed il livello di fit-ness in cui ci troviamo possiamo avere il maggior impatto possibile sui progetti a cui collaboriamo."
-#         speakers:
-#           speaker_1: *emanueladamiani
-#       talk_4:
-#         item_type: "talk"
-#         track: *track_1
-#         start_datetime: 2021-03-11T09:30+01:00
-#         end_datetime: 2021-03-11T10:15+01:00
-#         talk_title: Functional everything. How functional classes are changing the front-end world.
-#         talk_description: "Tailwind è il 'new kid on the block', ma bisogna evitare gli errori che hanno spinto alla creazione di librerie come CSSinJS e superare alcuni limiti relativi all'implementazione stessa di Tailwind. Vedremo come l'incapsulamento delle classi in proxy components e l'uso di CSS modules possono aiutarci a programmare un'architettura per componenti 'col vento in poppa'."
-#       # talk_video_url: ""
-#         speakers:
-#           speaker_1: *giuseppecaruso
-#       talk_5:
-#         item_type: "talk"
-#         track: *track_1
-#         start_datetime: 2021-03-11T16:30+01:00
-#         end_datetime: 2021-03-11T17:15+01:00
-#         talk_title: AI & Web a scary hope
-#         talk_description: "Il talk racconta come l’AI sta cambiando il modo di progettare e sviluppare il web, prima di tutto l’impatto sugli strumenti di design e la generazione del design stesso,la collaborazione tra designer e developer infine i tool che permettono di produrre (buon?) codice."
-#       # talk_video_url: ""
-#         speakers:
-#           speaker_1: *matteoguidotto
-#       talk_6:
-#         item_type: "service"
-#         track: *track_1
-#         start_datetime: 2021-03-11T16:00+01:00
-#         end_datetime: 2020-09-16T16:30+01:00
-#         talk_title: "Pausa Caffè"
-#         service_icon: "coffee"
-#       talk_7:
-#         item_type: "talk"
-#         track: *track_1
-#         start_datetime: 2021-03-11T10:15+01:00
-#         end_datetime: 2021-03-11T11:15+01:00
-#         talk_title: CSS Custom Properties all'ennesima potenza
-#         talk_description: "Le CSS Custom Properties, o più semplicemente variabili CSS, sono tra noi da qualche anno e probabilmente le avrai già usate in qualche progetto. La mia domanda è: le usiamo al massimo delle loro potenzialità? Oppure seguiamo vecchie abitudini trascurando opportunità in cui queste potrebbero ridurre significativamente la quantità di codice che scriviamo? Diamo un'occhiata ai principali casi d'uso in cui le variabili CSS permettono di realizzare cose interessanti e come integrarle al meglio in un design system."
-#       # talk_video_url: ""
-#         speakers:
-#           speaker_1: *francescoimprota
-#       talk_8:
-#         item_type: "talk"
-#         track: *track_1
-#         start_datetime: 2021-03-11T11:45+01:00
-#         end_datetime: 2021-03-11T12:30+01:00
-#         talk_title: WEB VITALS - Il web che si muove alla velocità della Luce
-#         talk_description: "In un mondo di connessioni veloci con utenti sempre più esigenti, Google ci fornisce gli strumenti per capire come 'tenere in forma' le nostre pagine web. Tra KPIS e ottimizzazioni, uno sguardo a come le performance sono core nello sviluppo dei nostri canali digitali."
-#         speakers:
-#           speaker_1: *matteolullo
-#       talk_9:
-#         item_type: "talk"
-#         track: *track_1
-#         start_datetime: 2021-03-11T14:15+01:00
-#         end_datetime: 2021-03-11T15:15+01:00
-#         talk_title: 10 principi di UI design che abbiamo già incontrato, senza saperlo.
-#         talk_description: "Cosa ha a che fare l’inspector di un browser web con la distinzione fra 'recognition' e 'recall'? Perché è così importante che la documentazione di Bootstrap offra sia una navigazione gerarchica che la barra di ricerca? Perché il vecchio widget 'block' di Flutter si chiama adesso 'list-view'?
-# Ma soprattutto cos’è quello strano piacere che nasce dal seguire il fattorino di Just Eat sulla mappa, se comunque lo sappiamo che la nostra pizza arriverà alle 22.10?
-# Esiste una manciata di regole su cui si basano le interfacce di tutti i prodotti digitali che sopravvivono alle aspettative dei loro utenti.
-# In questo talk esploriamo euristiche e golden rules dello UI design a partire da esperienze quotidiane, e ne indaghiamo le basi psicologiche e cognitive.
-# Impariamo così a conoscere e applicare le scelte di design che hanno condizionato positivamente le nostre esperienze utente."
-#         speakers:
-#           speaker_1: *lauramorabito
-#       talk_10:
-#         item_type: "talk"
-#         track: *track_1
-#         start_datetime: 2021-03-11T15:15+01:00
-#         end_datetime: 2021-03-11T16:00+01:00
-#         talk_title: Ui framework incompatibility
-#         talk_description: "Finalmente il designer ha consegnato i mockup della nuova app. Ma.. ..Acciderbolina! Il framework che utiliziamo non ha quei bottoni stondati e lunghi.
-# Se il designer li vuole così, dobbiamo customizzare il framework... ...Un mese dopo: Abbiamo finito di customizzare ed estendere il framework. Adesso fa schifo! E a volte non funziona su Internet Explorer.
-# Non so se si è capito, ma in questo talk parleremo di come affrontare l'incompatibilità tra la UI di una applicazione e il framework scelto per realizzarla.
-# Vi faccio un esempio: se il designer vuole i pulsanti stondati ma il framework ce li ha quadrati, cosa si deve fare? Come si risolve? Chi ha ragione? Dobbiamo cambiare la grafica o modificare il framework? Dobbiamo cambiare framework? Dobbiamo cambiare designer? o sviluppatori? I framework UI sono necessari?"
-#         speakers:
-#           speaker_1: *lorenzospinelli
-#       talk_11:
-#         item_type: "service"
-#         track: *track_1
-#         start_datetime: 2021-03-11T18:15+01:00
-#         end_datetime: 2021-03-11T18:30+01:00
-#         talk_title: "Ciao dal GrUSP"
-#       talk_12:
-#         item_type: "service"
-#         track: *track_1
-#         start_datetime: 2021-03-11T13:00+01:00
-#         end_datetime: 2021-03-11T14:15+01:00
-#         talk_title: "Pausa Pranzo"
-#         service_icon: "cutlery"
-#       talk_13:
-#         item_type: "talk"
-#         track: *track_1
-#         start_datetime: 2021-03-11T12:30+01:00
-#         end_datetime: 2021-03-11T13:00+01:00
-#         talk_title: "E i font, come li scegli? Conversazioni semiserie tra developer e designer"
-#         talk_description: "Parliamo di tipografia web e font variabili"
-#         speakers:
-#           speaker_1: *giulialaco
-#           speaker_2: *andreadecarolis
-#           speaker_3: *emanuelecentola
+days:
+  day_1:
+    date: 2022-04-01T09:00+2:00
+    title: "Day 1"
+    talks:
+    # service
+      opening:
+        item_type: "service"
+        start_datetime:
+        end_datetime:
+        talk_title: "Opening by GrUSP"
+      closing:
+        item_type: "service"
+        start_datetime:
+        end_datetime:
+        talk_title: "Saluti dal GrUSP"
+      coffee-morning:
+        item_type: "service"
+        start_datetime:
+        end_datetime:
+        talk_title: "Pausa Caffè"
+        service_icon: "coffee"
+      coffee-afternoon:
+        item_type: "service"
+        start_datetime:
+        end_datetime:
+        talk_title: "Pausa Caffè"
+        service_icon: "coffee"
+      lunch:
+        item_type: "service"
+        start_datetime:
+        end_datetime:
+        talk_title: "Pausa pranzo"
+        service_icon: "cutlery"
+    # talks
+      css-ci-spia:
+        item_type: "talk"
+        track: *track_1
+        start_datetime:
+        end_datetime:
+        talk_title: "CSS ci spia"
+        talk_description: "Può sembrare strano, ma è possibile essere tracciati e avere i propri dati sottratti nelle condizioni più improbabili. Ad esempio, avendo JavaScript disattivato.
+        Sorprendente? Eppure abbiamo già avuto di queste avvisaglie in passato, e con l'evoluzione di CSS come linguaggio degli ultimi anni le tecniche sono diventate sempre più raffinate. Ne vedremo alcune che forse non vi aspettavate..."
+        speakers:
+          speaker_1: *massimoartizzu
+      frameworks-css:
+        item_type: "talk"
+        track: *track_1
+        start_datetime:
+        end_datetime:
+        talk_title: "Framework CSS si o no? Questo è il dilemma"
+        talk_description: "Oggi è impensabile avviare un nuovo progetto web senza includere dentro un framework CSS. Da Bootstrap a Milligram, da Tailwind a Bulma, siamo sempre vincolati ad un codebase predefinito che spesso non si adatta alla perfezione al design system che ci viene fornito o al mockup che dobbiamo realizzare. A questo punto sorge spontanea la domanda: abbiamo davvero bisogno di un framework CSS? Forse si, forse no. Ovviamente reinventare la ruota ogni volta non è utile ed efficiente, proprio come capita con i framework JS, però con il CSS a volte è più facile creare la propria libreria interna piuttosto che utilizzare un framework esistente. In questo talk cercherò di rispondere alla domanda del titolo mostrando i pro e contro dell’utilizzo di framework CSS."
+        speakers:
+          speaker_1: *dianabernabei
+      components-design-system:
+        item_type: "talk"
+        track: *track_1
+        start_datetime:
+        end_datetime:
+        talk_title: "Il Diavolo fa gli Styled Components e noi i Design System"
+        talk_description: "Volenti o nolenti gli Styled Components sono parte delle possibili soluzioni che abbiamo a disposizione per lo styling di un'applicazione web. Mettendo da parte i possibili pregiudizi sul CSS in JS, diamo uno sguardo a come funzionano e su come e quando possono essere una ragionevole soluzione nell'ambito della creazione di un Design System."
+        speakers:
+          speaker_1: *giuseppecaruso
+      emotionjs:
+        item_type: "talk"
+        track: *track_1
+        start_datetime:
+        end_datetime:
+        talk_title: "Tu chiamalo se vuoi EmotionJS"
+        talk_description: "Nella lotta ai vari modi di scrivere CSS, tra gemme ruby e utility atomiche, io ho trovato il mio vincitore. EmotionJS è un tool CSS-in-JS che permette in semplicità di scrivere 'stile in linea' e trasformarlo 'automagicamente' in classi univoche. Con un sacco di idee prese dai concorrenti come styled component, pieno supporto a TypeScript e un ecosistema ormai maturo, vedremo un paio di use case e come mai lo reputo il vincitore... per ora. Perché altri concorrenti come Vanilla-Extract potrebbero presto prendere il suo posto."
+        speakers:
+          speaker_1: *davidedipumpo
+      palette-icone-immagini:
+        item_type: "talk"
+        track: *track_1
+        start_datetime:
+        end_datetime:
+        talk_title: "Automatizzare la conversione in palette di icone e immagini"
+        talk_description: "Spesso ci ritroviamo ad avere risorse recuperate da altri design system, progetti precedenti o da icon pack di terze parti. Iniziando un nuovo progetto, una delle prime cose da realizzare e decidere, è la palette dei colori. Generare i nostri asset nella color palette predefinita ci permette di aver maggior controllo sulla distribuzione e manutenzione del design system. In questo talk vedremo quali strumenti, o librerie open source (come ImageGoNord) possono aiutarci in questo task."
+        speakers:
+          speaker_1: *mikilombardi
+      nessuno-vuole-scrivere-css:
+        item_type: "talk"
+        track: *track_1
+        start_datetime:
+        end_datetime:
+        talk_title: "Perché nessuno vuole più scrivere CSS?"
+        talk_description: "Tanto tempo fa in una galassia lontana lontana... È un periodo di guerra civile. I Front-End non vogliono più scrivere il CSS e quando lo scrivono preferiscono Tailwind o usano Bootstrap, sui curriculum il CSS e i relativi pre-processori hanno sempre 5 stelline su 5, ma nella pratica sono in pochi a sapere e voler fare un front-end pixel-perfect. Perché succede e perché il termine Front-End Developer da solo non basta più? In questo talk esploreremo le mie personali esperienze negli anni e come la figura del Front-End Developer sia cambiata negli anni."
+        speakers:
+          speaker_1: *emanuelemacri
+      form-design:
+        item_type: "talk"
+        track: *track_1
+        start_datetime:
+        end_datetime:
+        talk_title: "Form design: non basta un freestyle"
+        talk_description: "Compilare un questionario, creare il proprio profilo su un’app che promette di cambiare il nostro stile di vita, pubblicare un post sui social; tutte queste azioni, oramai quotidiane, implicano l’utilizzo di un form.
+        Ma quante volte avete rinunciato per la complessità delle richieste? Quante volte avete imprecato dopo l’ennesimo errore di validazione?
+        Creare e disegnare un form che sia efficace nel raccogliere i dati e al contempo leggibile e piacevole, non è un’impresa semplice e non si può più lasciare spazio all’improvvisazione.
+        Come rivolgersi all’utente? L’estetica è importante, o dobbiamo puntare sulla semplicità?
+        La posizione di un bottone o un messaggio non coerente possono far perdere un cliente o rendere i dipendenti frustrati, esploriamo una serie di regole che possono aiutare e gli errori più comuni da evitare, e il freestyle lasciamo a chi fa rap."
+        speakers:
+          speaker_1: *luigipatricelli
+      ottimizzazione-immagini:
+        item_type: "talk"
+        track: *track_1
+        start_datetime:
+        end_datetime:
+        talk_title: "💫 Ottimizzazione immagini 4.0 (a data-driven + test-driven approach)"
+        talk_description: "Vi illustro la tecnica che ho utilizzato per ottimizzare le immagini a partire dai dati di risoluzione e densità schermo su alcuni dei nostri store ecommerce.
+        I risultati sono:
+        <ul>
+        <li>-	un codice HTML molto più leggero; </li>
+        <li>-	maggior riutilizzo della cache della CDN;</li>
+        <li>-	performance migliorate grazie al limite della fedeltà a 2x;</li>
+        <li>-	pixel-perfection sui device più diffusi.</li></ul>
+        Inoltre:
+        <ul>
+        <li>-	più facilità nel calcolare le dimensioni delle immagini;</li>
+        <li>-	calcolo dello spreco di banda incluso;</li>
+        <li>-	generazione automatica del tag `picture` con controllo test-driven.</li></ul>"
+        speakers:
+          speaker_1: *andreaverlicchi
 
-#   # day_2:
-#   #   date: 2020-09-17T09:00
-#   #   title: "Day 2"
-#   #   talks:
-#   #     talk_1:
-#   #       item_type: "service"
-#   #       start_datetime: 2020-09-16T09:00
-#   #       end_datetime: 2020-09-16T09:30
-#   #       talk_title: "Welcome Coffee"
-#   #       service_icon: "coffee"
-#   #     talk_2:
-#   #       track: *track_1
-#   #       item_type: "talk"
-#   #       start_datetime: 2020-09-17T09:30
-#   #       end_datetime: 2020-09-17T10:45
-#   #       talk_title: "This is a talk at the beginning of the second day"
-#   #       talk_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-#   #       talk_video_url:
-#   #       speakers:
-#   #         speaker_1: *regular_speaker
-#   #     talk_3:
-#   #       track: *track_2
-#   #       item_type: "talk"
-#   #       start_datetime: 2020-09-17T09:30
-#   #       end_datetime: 2020-09-17T10:45
-#   #       talk_title: "This is a talk in the second day, track 2"
-#   #       talk_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-#   #       talk_video_url:
-#   #       speakers:
-#   #         speaker_1: *regular_speaker
+

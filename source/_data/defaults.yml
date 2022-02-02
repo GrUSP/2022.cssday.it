@@ -57,7 +57,9 @@ conference:
   # "general information" ("what is it?") component
   geninfo_visible: true
   geninfo_title: "Che cos'è?"
-  geninfo_description: "cssday è la conferenza italiana dedicata ai CSS, uno degli strumenti più potenti, ed allo stesso tempo sottovalutati, del nuovo rinascimento del web.<br>Nata come track del jsday e dallo stesso team di Kerning, cssday vuole dare una dignità alla tecnologia che rende tutti i siti più leggibili, interattivi ed anche belli da vedere.<br> cssday 2021 si svolge online."
+  geninfo_description: "cssday è la conferenza italiana dedicata ai CSS, uno degli strumenti più potenti, ed allo stesso tempo sottovalutati, del nuovo rinascimento del web.
+  </br> <br />Nata come track del <a href='https://www.jsday.it/'>jsday</a> e dallo stesso team di Kerning, cssday vuole dare una dignità alla tecnologia che rende tutti i siti più leggibili, interattivi ed anche belli da vedere.
+  </br> <br />cssday 2022 si svolge in modalità <b>ibrida</b>: di persona a Faenza e online."
   geninfo_about_label: "About"
   geninfo_coc_label: "Codice di condotta"
   geninfo_scholarships_label: "Scholarships"
@@ -88,7 +90,7 @@ conference:
   newsletter_legal_url: "https://mailchimp.com/legal/"
   newsletter_legal_label: "Informazioni riguardo la privacy policy di Mailchimp"
   # "speakers" component. set the first parameter to true to make it appear in home page, false means hidden
-  speakers_visible: false
+  speakers_visible: true
   speakers_title: "Speaker"
   mcs_title: "MC"
   speaker_count_text:
