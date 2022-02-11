@@ -21,6 +21,10 @@ gold:
 #    site_url: ""
 bronze:
   sponsor1:
+    name: "antreem"
+    logo_filename: "antreem.png"
+    site_url: "https://antreem.com/it/"
+  sponsor3:
     name: "injenia"
     logo_filename: "injenia.png"
     site_url: "https://injenia.it/"
