@@ -10,7 +10,7 @@ workshops:
     is_external: false
     page_uri: "workshop/tipografia_css.html"
     page_title: "Tipografia con i CSS"
-    workshop_title: "Tipografia con i CSSS"
+    workshop_title: "Tipografia con i CSS"
     ticket_url: "https://cssday-2022.eventbrite.com"
     ticket_label: "Partecipa"
     location_title: "Dove"
