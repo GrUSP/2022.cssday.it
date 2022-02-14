@@ -1,5 +1,5 @@
 # NB impostare a `true` per generare la pagina, a `false` per NON generarla
-generate_schedule_page: false
+generate_schedule_page: true
 schedule_under_construction_title: "Schedule under construction"
 schedule_under_construction_description: "We are still defining the schedule. Please be patient"
 
@@ -104,44 +104,44 @@ tracks:
 
 days:
   day_1:
-    date: 2022-04-01T09:00+2:00
+    date: 2022-04-01T09:00+02:00
     title: "Day 1"
     talks:
     # service
       opening:
         item_type: "service"
-        start_datetime:
-        end_datetime:
+        start_datetime: 2022-04-01T09:30+02:00
+        end_datetime: 2022-04-01T09:45+02:00
         talk_title: "Opening by GrUSP"
       closing:
         item_type: "service"
-        start_datetime:
-        end_datetime:
+        start_datetime: 2022-04-01T17:10+02:00
+        end_datetime: 2022-04-01T17:25+02:00
         talk_title: "Saluti dal GrUSP"
       coffee-morning:
         item_type: "service"
-        start_datetime:
-        end_datetime:
+        start_datetime: 2022-04-01T11:05+02:00
+        end_datetime: 2022-04-01T11:35+02:00
         talk_title: "Pausa Caffè"
         service_icon: "coffee"
       coffee-afternoon:
         item_type: "service"
-        start_datetime:
-        end_datetime:
+        start_datetime: 2022-04-01T15:20+02:00
+        end_datetime: 2022-04-01T15:50+02:00
         talk_title: "Pausa Caffè"
         service_icon: "coffee"
       lunch:
         item_type: "service"
-        start_datetime:
-        end_datetime:
+        start_datetime: 2022-04-01T12:55+02:00
+        end_datetime: 2022-04-01T14:00+02:00
         talk_title: "Pausa pranzo"
         service_icon: "cutlery"
     # talks
       css-ci-spia:
         item_type: "talk"
         track: *track_1
-        start_datetime:
-        end_datetime:
+        start_datetime: 2022-04-01T09:45+02:00
+        end_datetime: 2022-04-01T10:25+02:00
         talk_title: "CSS ci spia"
         talk_description: "Può sembrare strano, ma è possibile essere tracciati e avere i propri dati sottratti nelle condizioni più improbabili. Ad esempio, avendo JavaScript disattivato.
         Sorprendente? Eppure abbiamo già avuto di queste avvisaglie in passato, e con l'evoluzione di CSS come linguaggio degli ultimi anni le tecniche sono diventate sempre più raffinate. Ne vedremo alcune che forse non vi aspettavate..."
@@ -150,66 +150,18 @@ days:
       frameworks-css:
         item_type: "talk"
         track: *track_1
-        start_datetime:
-        end_datetime:
+        start_datetime: 2022-04-01T10:25+02:00
+        end_datetime: 2022-04-01T11:05+02:00
         talk_title: "Framework CSS si o no? Questo è il dilemma"
         talk_description: "Oggi è impensabile avviare un nuovo progetto web senza includere dentro un framework CSS. Da Bootstrap a Milligram, da Tailwind a Bulma, siamo sempre vincolati ad un codebase predefinito che spesso non si adatta alla perfezione al design system che ci viene fornito o al mockup che dobbiamo realizzare. A questo punto sorge spontanea la domanda: abbiamo davvero bisogno di un framework CSS? Forse si, forse no. Ovviamente reinventare la ruota ogni volta non è utile ed efficiente, proprio come capita con i framework JS, però con il CSS a volte è più facile creare la propria libreria interna piuttosto che utilizzare un framework esistente. In questo talk cercherò di rispondere alla domanda del titolo mostrando i pro e contro dell’utilizzo di framework CSS."
         speakers:
           speaker_1: *dianabernabei
-      components-design-system:
-        item_type: "talk"
-        track: *track_1
-        start_datetime:
-        end_datetime:
-        talk_title: "Il Diavolo fa gli Styled Components e noi i Design System"
-        talk_description: "Volenti o nolenti gli Styled Components sono parte delle possibili soluzioni che abbiamo a disposizione per lo styling di un'applicazione web. Mettendo da parte i possibili pregiudizi sul CSS in JS, diamo uno sguardo a come funzionano e su come e quando possono essere una ragionevole soluzione nell'ambito della creazione di un Design System."
-        speakers:
-          speaker_1: *giuseppecaruso
-      emotionjs:
-        item_type: "talk"
-        track: *track_1
-        start_datetime:
-        end_datetime:
-        talk_title: "Tu chiamalo se vuoi EmotionJS"
-        talk_description: "Nella lotta ai vari modi di scrivere CSS, tra gemme ruby e utility atomiche, io ho trovato il mio vincitore. EmotionJS è un tool CSS-in-JS che permette in semplicità di scrivere 'stile in linea' e trasformarlo 'automagicamente' in classi univoche. Con un sacco di idee prese dai concorrenti come styled component, pieno supporto a TypeScript e un ecosistema ormai maturo, vedremo un paio di use case e come mai lo reputo il vincitore... per ora. Perché altri concorrenti come Vanilla-Extract potrebbero presto prendere il suo posto."
-        speakers:
-          speaker_1: *davidedipumpo
-      palette-icone-immagini:
-        item_type: "talk"
-        track: *track_1
-        start_datetime:
-        end_datetime:
-        talk_title: "Automatizzare la conversione in palette di icone e immagini"
-        talk_description: "Spesso ci ritroviamo ad avere risorse recuperate da altri design system, progetti precedenti o da icon pack di terze parti. Iniziando un nuovo progetto, una delle prime cose da realizzare e decidere, è la palette dei colori. Generare i nostri asset nella color palette predefinita ci permette di aver maggior controllo sulla distribuzione e manutenzione del design system. In questo talk vedremo quali strumenti, o librerie open source (come ImageGoNord) possono aiutarci in questo task."
-        speakers:
-          speaker_1: *mikilombardi
-      nessuno-vuole-scrivere-css:
-        item_type: "talk"
-        track: *track_1
-        start_datetime:
-        end_datetime:
-        talk_title: "Perché nessuno vuole più scrivere CSS?"
-        talk_description: "Tanto tempo fa in una galassia lontana lontana... È un periodo di guerra civile. I Front-End non vogliono più scrivere il CSS e quando lo scrivono preferiscono Tailwind o usano Bootstrap, sui curriculum il CSS e i relativi pre-processori hanno sempre 5 stelline su 5, ma nella pratica sono in pochi a sapere e voler fare un front-end pixel-perfect. Perché succede e perché il termine Front-End Developer da solo non basta più? In questo talk esploreremo le mie personali esperienze negli anni e come la figura del Front-End Developer sia cambiata negli anni."
-        speakers:
-          speaker_1: *emanuelemacri
-      form-design:
-        item_type: "talk"
-        track: *track_1
-        start_datetime:
-        end_datetime:
-        talk_title: "Form design: non basta un freestyle"
-        talk_description: "Compilare un questionario, creare il proprio profilo su un’app che promette di cambiare il nostro stile di vita, pubblicare un post sui social; tutte queste azioni, oramai quotidiane, implicano l’utilizzo di un form.
-        Ma quante volte avete rinunciato per la complessità delle richieste? Quante volte avete imprecato dopo l’ennesimo errore di validazione?
-        Creare e disegnare un form che sia efficace nel raccogliere i dati e al contempo leggibile e piacevole, non è un’impresa semplice e non si può più lasciare spazio all’improvvisazione.
-        Come rivolgersi all’utente? L’estetica è importante, o dobbiamo puntare sulla semplicità?
-        La posizione di un bottone o un messaggio non coerente possono far perdere un cliente o rendere i dipendenti frustrati, esploriamo una serie di regole che possono aiutare e gli errori più comuni da evitare, e il freestyle lasciamo a chi fa rap."
-        speakers:
-          speaker_1: *luigipatricelli
+
       ottimizzazione-immagini:
         item_type: "talk"
         track: *track_1
-        start_datetime:
-        end_datetime:
+        start_datetime: 2022-04-01T11:35+02:00
+        end_datetime: 2022-04-01T12:15+02:00
         talk_title: "💫 Ottimizzazione immagini 4.0 (a data-driven + test-driven approach)"
         talk_description: "Vi illustro la tecnica che ho utilizzato per ottimizzare le immagini a partire dai dati di risoluzione e densità schermo su alcuni dei nostri store ecommerce.
         I risultati sono:
@@ -225,5 +177,59 @@ days:
         <li>-	generazione automatica del tag `picture` con controllo test-driven.</li></ul>"
         speakers:
           speaker_1: *andreaverlicchi
+
+      palette-icone-immagini:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2022-04-01T12:15+02:00
+        end_datetime: 2022-04-01T12:55+02:00
+        talk_title: "Automatizzare la conversione in palette di icone e immagini"
+        talk_description: "Spesso ci ritroviamo ad avere risorse recuperate da altri design system, progetti precedenti o da icon pack di terze parti. Iniziando un nuovo progetto, una delle prime cose da realizzare e decidere, è la palette dei colori. Generare i nostri asset nella color palette predefinita ci permette di aver maggior controllo sulla distribuzione e manutenzione del design system. In questo talk vedremo quali strumenti, o librerie open source (come ImageGoNord) possono aiutarci in questo task."
+        speakers:
+          speaker_1: *mikilombardi
+
+      components-design-system:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2022-04-01T14:00+02:00
+        end_datetime: 2022-04-01T14:40+02:00
+        talk_title: "Il Diavolo fa gli Styled Components e noi i Design System"
+        talk_description: "Volenti o nolenti gli Styled Components sono parte delle possibili soluzioni che abbiamo a disposizione per lo styling di un'applicazione web. Mettendo da parte i possibili pregiudizi sul CSS in JS, diamo uno sguardo a come funzionano e su come e quando possono essere una ragionevole soluzione nell'ambito della creazione di un Design System."
+        speakers:
+          speaker_1: *giuseppecaruso
+
+      form-design:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2022-04-01T14:40+02:00
+        end_datetime: 2022-04-01T15:20+02:00
+        talk_title: "Form design: non basta un freestyle"
+        talk_description: "Compilare un questionario, creare il proprio profilo su un’app che promette di cambiare il nostro stile di vita, pubblicare un post sui social; tutte queste azioni, oramai quotidiane, implicano l’utilizzo di un form.
+        Ma quante volte avete rinunciato per la complessità delle richieste? Quante volte avete imprecato dopo l’ennesimo errore di validazione?
+        Creare e disegnare un form che sia efficace nel raccogliere i dati e al contempo leggibile e piacevole, non è un’impresa semplice e non si può più lasciare spazio all’improvvisazione.
+        Come rivolgersi all’utente? L’estetica è importante, o dobbiamo puntare sulla semplicità?
+        La posizione di un bottone o un messaggio non coerente possono far perdere un cliente o rendere i dipendenti frustrati, esploriamo una serie di regole che possono aiutare e gli errori più comuni da evitare, e il freestyle lasciamo a chi fa rap."
+        speakers:
+          speaker_1: *luigipatricelli
+
+      nessuno-vuole-scrivere-css:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2022-04-01T15:50+02:00
+        end_datetime: 2022-04-01T16:30+02:00
+        talk_title: "Perché nessuno vuole più scrivere CSS?"
+        talk_description: "Tanto tempo fa in una galassia lontana lontana... È un periodo di guerra civile. I Front-End non vogliono più scrivere il CSS e quando lo scrivono preferiscono Tailwind o usano Bootstrap, sui curriculum il CSS e i relativi pre-processori hanno sempre 5 stelline su 5, ma nella pratica sono in pochi a sapere e voler fare un front-end pixel-perfect. Perché succede e perché il termine Front-End Developer da solo non basta più? In questo talk esploreremo le mie personali esperienze negli anni e come la figura del Front-End Developer sia cambiata negli anni."
+        speakers:
+          speaker_1: *emanuelemacri
+
+      emotionjs:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2022-04-01T16:30+02:00
+        end_datetime: 2022-04-01T17:10+02:00
+        talk_title: "Tu chiamalo se vuoi EmotionJS"
+        talk_description: "Nella lotta ai vari modi di scrivere CSS, tra gemme ruby e utility atomiche, io ho trovato il mio vincitore. EmotionJS è un tool CSS-in-JS che permette in semplicità di scrivere 'stile in linea' e trasformarlo 'automagicamente' in classi univoche. Con un sacco di idee prese dai concorrenti come styled component, pieno supporto a TypeScript e un ecosistema ormai maturo, vedremo un paio di use case e come mai lo reputo il vincitore... per ora. Perché altri concorrenti come Vanilla-Extract potrebbero presto prendere il suo posto."
+        speakers:
+          speaker_1: *davidedipumpo
 
 

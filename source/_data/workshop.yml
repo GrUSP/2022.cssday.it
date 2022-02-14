@@ -6,15 +6,15 @@ workshop_img_credits:
 
 workshops:
   font_variabili:
-    ws_id: font_variabili
+    ws_id: tipografia_css
     is_external: false
-    page_uri: "workshop/font_variabili.html"
-    page_title: "Tipografia web e font variabili"
-    workshop_title: "Tipografia web e font variabili"
-    ticket_url: "https://cssday-2021.eventbrite.com"
+    page_uri: "workshop/tipografia_css.html"
+    page_title: "Tipografia con i CSS"
+    workshop_title: "Tipografia con i CSSS"
+    ticket_url: "https://cssday-2022.eventbrite.com"
     ticket_label: "Partecipa"
     location_title: "Dove"
-    # location: "Verona"
+    location: "online"
     online_location: "online"
     # location_name: "Hotel San Marco"
     # location_name: "The Internet"
@@ -28,29 +28,29 @@ workshops:
     location_additional_info: "Il workshop si svolge online, in aula virtuale"
     whatandwhen_title: "Quando"
     # whatandwhen_additional_info: "Registrazione, caffè e pranzo inclusi"
-    whatandwhen_additional_info: "8 ore, divise in due sessioni: Martedì 16 e Mercoledì 17 Marzo 2021, dalle 9 alle 13."
-    date: 2021-03-16T09:00+01:00
-    end_date: 2021-03-17T13:00+01:00
-    date_text:
+    whatandwhen_additional_info: "9 ore, divise in tre sessioni: 11, 12 e 13 Aprile 2022, dalle 9 alle 12."
+    date: 2022-04-11T09:00+01:00
+    end_date: 2022-04-13T13:00+01:00
+    date_text: "11, 12 e 13 Aprile 2022"
     language_title: "Lingua"
     language: "italiano"
     # language_ext: "Lingua: italiano"
     language_additional_info: ""
     # collab: "Workshop realizzato in collaborazione con Giulia Laco"
-    description: "Progettare un sistema tipografico per siti web sfruttando i vantaggi del formato OpenType 1.8"
+    description: "Come sfruttare le proprietà CSS, le caratteristiche dei singoli font e i principi consolidati di tipografia nei progetti web"
     description_long:
-      "<strong> Progettare un sistema tipografico per siti web sfruttando i vantaggi del formato OpenType 1.8 </strong>
+      "<strong> Come sfruttare le proprietà CSS, le caratteristiche dei singoli font e i principi consolidati di tipografia nei progetti web</strong>
       <br>
-      <br  /> I font variabili rappresentano una grossa novità per la tipografia dei siti web e godono oggi di un buon supporto a livello dei browser. Il formato rappresenta inoltre un’opportunità di miglioramento delle performance dei web font e un sorprendente ampliamento delle possibilità tipografiche. I siti web sono strutture complesse in cui il testo compare con diverse funzioni: dal corpo del testo, ai titoli, ai menù di navigazione e non solo. Ogni parte merita un diverso trattamento tipografico per esaltare al contempo l'architettura del sito, la struttura di pagina e la natura stessa del contenuto. I font variabili sembrano proprio venirci in aiuto. Per sfruttarne appieno le potenzialità, occorre capirne le ragioni storiche e immaginarne l’utilizzo creativo nelle interfacce digitali, nell’animazione del testo, nel design fluido, fino all’espressione del brand in modi nuovi, prima impensabili.
+      <br  /> Uno sguardo a 360 gradi sulle possibilità tipografiche del Web di oggi. Sapere analizzare le proprietà CSS dedicate al testo e ai font, le caratteristiche del formato OpenType, saper distinguere fra gli assi di variazione offerti dai font variabili per capire in che modo possono tornare utili. Porre attenzione ai dettagli che rendono lo styling del testo professionale. Conoscere i parametri che influenzano la leggibilità di un testo, di un titolo, di un menù. Capire la differenza fra responsive, fluid o clamp typography. Capire cosa influenza la performance di velocità per la resa tipografica. Sapere che tanto di ciò che ha insegnato la tipografia tradizionale si può fare sul web (e cosa ancora no). Per essere tipografi digitali oggi serve un po’ di questo.
       <br>
       <br  /> Nel workshop verranno affrontati sia aspetti teorici che pratici.
       <br>
       <br  /> <strong> Cosa ottieni frequentando questo workshop: </strong>
       <ul>
-        <li>• Conoscenza del formato dei font variabili e collocazione nella storia tipografica</li>
-        <li>• Capacità di corretta implementazione dei font variabili e dei fallback font con consapevolezza delle tematiche legate al web font loading</li>
-        <li>• Consapevolezza di cosa si acquista quando si compera un font</li>
-        <li>• Spunti per la creatività in base a ciò che un dato font prevede</li!>
+        <li>• Imparerai a distinguere quando una caratteristica tipografica è determinata esclusivamente da una proprietà CSS o quando invece dipende dal font utilizzato.</li>
+        <li>• Metterai in pratica con esercitazioni alcune proprietà CSS poco note.</li>
+        <li>• Imparerai a scegliere i font anche in base alle esigenze tecniche.</li>
+        <li>• Imparerai un metodo per approfondire la conoscenza delle potenzialità dei font che usi/acquisti.</li!>
       </ul>
       <br>"
     # video trailer?
@@ -64,7 +64,7 @@ workshops:
         teacher_bio: "Formazione umanistica mescolata alla Logica matematica, la Linguistica, l’Intelligenza Artificiale e la Filosofia del Linguaggio.
           Attratta dal Web design fin dagli esordi, sono stata webmaster in azienda nell’altro secolo e Web designer/developer in questo, appassionandomi ciclicamente a nuove discipline: Web Marketing, Architettura dell’Informazione, SEO, UX e Web Typography – per citarne alcune.
           Da qualche anno cerco di ispirare la comunità dei web designer all’utilizzo consapevole della tipografia per il web."
-        pic_filename: "giulia-laco.jpg"
+        pic_filename: "giulia-laco.png"
         teacher_role: "Web designer/developer"
         teacher_org: "WebMatter"
     # teacher_2:
@@ -76,81 +76,25 @@ workshops:
     topics_title: "Argomenti trattati"
     topics:
       - "Web font, font di sistema, UI system font"
-      - "Formati di font"
-      - "Direttiva CSS @font-face"
-      - "Il caricamento dei font, FOIT/FOUT"
-      - "La proprietà font-display"
-      - "Fallback font e font-stack"
-      - "I font variabili"
-      - "Gli assi di variazione"
+      - "Le proprietà CSS del testo"
+      - "Le proprietà CSS dei font"
+      - "I formati dei font"
+      - "La direttiva CSS @font-face"
+      - "Il caricamento dei font"
+      - "Le caratteristiche del formato OpenType"
       - "Proprietà CSS (basso livello vs. CSS4)"
-      - "Font-size (unità di misura)"
-      - "Responsive Web Typography vs. Fluid Web Typography"
-      - "Typesetting del paragrafo perfetto"
-      - "Anatomia dei caratteri"
-      - "Classificazione"
-      - "Font-pairing"
+      - "Font variabili e principali assi di variazione"
+      - "Micro tipografia (tipografia dei dettagli)"
+      - "Metodi per la gerarchia tipografica"
       - "Testo e funzione"
+      - "Typesetting del paragrafo perfetto"
+      - "Approcci alla tipografia multi-device"
+      - "Strumenti utili"
     addressees_title: "A chi è rivolto"
-    addressees_description: "Il corso è rivolto a designer, sviluppatori, product owner e manager che vogliano applicare font variabili e principi di tipografia al proprio prodotto o progetto."
+    addressees_description: "Il corso è rivolto a Web, UX, UI designer e developer front-end che vogliano applicare al meglio le proprietà CSS dedicate alla tipografia nei propri progetti. A chi utilizza i CSS da poco tempo, e a chi li conosce già bene ma desidera capire a fondo quali sono le variabili che hanno a che fare con la leggibilità, come si intersecano fra loro nella resa tipografica e come non dimenticarne nessuna nella stesura nel proprio design system."
     requirements_title: "Requisiti di partecipazione"
-    requirements_description: "Per partecipare è necessaria una conoscenza base di CSS e HTML. <br /> Ti serviranno inoltre un editor di codice e il browser (consigliata: ultima versione di Firefox) <br /> Verranno suggeriti prima del corso eventuali altri strumenti/configurazioni utili."
+    requirements_description: "Per partecipare è necessaria almeno una conoscenza base dei CSS.<br /> Ti serviranno inoltre un editor di codice e il browser (consigliata: ultima versione di Firefox) <br /> Verranno suggeriti prima del corso eventuali altri strumenti/configurazioni utili."
     useful_info_title: "Informazioni utili"
-    useful_info_description: "Il workshop si svolge online e dura 8 ore, divise in due mattine: Martedì 16 e Mercoledì 17 Marzo 2021, dalle 9 alle 13."
+    useful_info_description: "Il workshop si svolge online e dura 9 ore, divise in tre mattine: Lunedì 11, Martedì 12 e Mercoledì 13 Aprile dalle 9 alle 12."
     # CTA
     cta_title: "Assicurati un posto! I biglietti sono in vendita"
-  # workshop_2:
-  #   ws_id: workshop_2
-  #   is_external: false
-  #   page_uri: "workshop/workshop_2.html"
-  #   page_title: "Sample second workshop"
-  #   workshop_title: "Workshop on multiple workshops"
-  #   location: "Verona"
-  #   location_name: "Hotel San Marco"
-  #   location_contact_phone: "+045569011"
-  #   location_contact_email: "sanmarco@sanmarco.vr.it"
-  #   location_contact_url: "https://www.sanmarco.vr.it/"
-  #   location_address: "Via Longhena 42, 37138 Verona (VE) Italy"
-  #   location_maps_url: "https://www.google.com/maps/place/Hotel+San+Marco+Fitness+Pool+%26+SPA/@45.4399961,10.9697441,17z/data=!3m1!4b1!4m8!3m7!1s0x4781e1e30a8be6af:0x8091b108e1d130c6!5m2!4m1!1i2!8m2!3d45.4399961!4d10.9719328"
-  #   location_maps_label: "Get directions"
-  #   location_additional_info: "L'hotel offre tariffe scontate ai partecipanti ai workshop, sia per camere singole sia per camere doppie."
-  #   whatandwhen_title: "Cosa e quando"
-  #   whatandwhen_additional_info: "Registrazione, caffè e pranzo inclusi"
-  #   date: 2020-09-15T09:30
-  #   end_date: 2020-09-15T16:30
-  #   language_title: "Lingua"
-  #   language: "italian / italiano"
-  #   language_ext: "Language: Italian / Lingua: italiano"
-  #   language_additional_info: "No translation provided."
-  #   # no collab / commented out
-  #   # collab:
-  #   description: "Testo qualsiasi per descrizione breve"
-  #   description_long: "Testo della descrizione lunga, Testo della descrizione lunga, Testo della descrizione lunga, Testo della descrizione lunga, Testo della descrizione lunga, Testo della descrizione lunga."
-  #   # video trailer?
-  #   trailer: false
-  #   trailer_url: ""
-  #   # nota sul titolo: se il linguaggio specificato in `language` NON in clude 'italian', in pagina viene aggiunta la "s" finale
-  #   teacher_title: "Teacher"
-  #   teachers:
-  #     teacher_1:
-  #       teacher_name: "Sample Teacher"
-  #       teacher_bio: "This is the bio. Lorem ipsum dolor sic amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. And so on."
-  #       pic_filename: "pic1.png"
-  #       teacher_role: "CEO"
-  #       teacher_org: "ExampleCom"
-  #   topics_title: "Argomenti"
-  #   topics:
-  #     - "Workshops on workshops"
-  #     - "Talk on talks"
-  #     - "Meta-workshop"
-  #   addressees_title: "A chi è rivolto"
-  #   addressees_description: "Il workshop è rivolto a chi vuole fare un workshop sui workshop per sapere come si fa un workshop sui workshop."
-  #   requirements_title: "Requisiti di partecipazione"
-  #   requirements_description: "Basta saper leggere e scrivere."
-  #   useful_info_title: "Informazioni utili"
-  #   useful_info_description: "Presentarsi un quarto d'ora prima dell'inizio è consigliabile perché così ti offriamo un caffè."
-  #   # CTA
-  #   cta_title: "Hurry up. There are only a few available places!"
-  #   location_title: "Dove"
-  #   ticket_url: ""
-  #   ticket_label: "Register now"

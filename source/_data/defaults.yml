@@ -59,7 +59,8 @@ conference:
   geninfo_title: "Che cos'è?"
   geninfo_description: "cssday è la conferenza italiana dedicata ai CSS, uno degli strumenti più potenti, ed allo stesso tempo sottovalutati, del nuovo rinascimento del web.
   </br> <br />Nata come track del <a href='https://www.jsday.it/'>jsday</a> e dallo stesso team di Kerning, cssday vuole dare una dignità alla tecnologia che rende tutti i siti più leggibili, interattivi ed anche belli da vedere.
-  </br> <br />cssday 2022 si svolge in modalità <b>ibrida</b>: di persona a Faenza e online."
+  </br> <br />cssday 2022 si svolge Venerdì 1 Aprile in modalità <b>ibrida</b>: di persona a Faenza e online.
+  </br> <br />Oltre alla conferenza, quest'anno c'è un <a href='https://www.cssday.it/workshop/tipografia_css.html'>workshop</a> dedicato alla Tipografia con i CSS, che si svolgerà <b>online</b> nei giorni 11, 12 e 13 Aprile 2022."
   geninfo_about_label: "About"
   geninfo_coc_label: "Codice di condotta"
   geninfo_scholarships_label: "Scholarships"
@@ -107,7 +108,7 @@ conference:
     - "Metodologie"
   topics_payoff: "...e molto altro!"
   # "workshop" component. set the first parameter to true to make it appear in home page, false means hidden
-  workshop_visible: false
+  workshop_visible: true
   workshops_title: "workshop"
   workshops_tickets_label: "Acquista i biglietti"
   workshops_readmore_label: "Continua a leggere"
