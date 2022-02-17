@@ -14,7 +14,7 @@ workshops:
     ticket_url: "https://cssday-2022.eventbrite.com"
     ticket_label: "Partecipa"
     location_title: "Dove"
-    location: "online"
+    # location: "Verona"
     online_location: "online"
     # location_name: "Hotel San Marco"
     # location_name: "The Internet"
