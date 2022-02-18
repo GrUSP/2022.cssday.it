@@ -11,6 +11,10 @@ sponsors_block_title: "Grazie ai nostri sponsor!"
 #    site_url: ""
 gold:
   sponsor1:
+    name: "Netcentric"
+    logo_filename: "netcentric.svg"
+    site_url: "https://www.netcentric.biz/"
+  sponsor2:
     name: "Workwave"
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"
@@ -24,11 +28,15 @@ bronze:
     name: "antreem"
     logo_filename: "antreem.png"
     site_url: "https://antreem.com/it/"
-  sponsor3:
+  sponsor2:
     name: "injenia"
     logo_filename: "injenia.png"
     site_url: "https://injenia.it/"
-  sponsor2:
+  sponsor3:
+    name: "MailUp"
+    logo_filename: "mailup.svg"
+    site_url: "https://www.mailup.it/?b=1&utm_source=grusp&utm_medium=sitoevento&utm_campaign=cssday"
+  sponsor4:
     name: "stickermule"
     logo_filename: "stickermule.svg"
     site_url: "https://mule.to/p2gc"
