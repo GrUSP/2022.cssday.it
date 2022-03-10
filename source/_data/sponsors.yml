@@ -15,6 +15,10 @@ gold:
     logo_filename: "netcentric.svg"
     site_url: "https://www.netcentric.biz/"
   sponsor2:
+    name: "LPI"
+    logo_filename: "lpi.png"
+    site_url: "https://www.lpi.org/"
+  sponsor3:
     name: "Workwave"
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"
