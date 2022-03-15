@@ -223,7 +223,7 @@ days:
         start_datetime: 2022-04-01T15:50+02:00
         end_datetime: 2022-04-01T16:30+02:00
         talk_title: "Perché nessuno vuole più scrivere CSS?"
-        talk_description: "Tanto tempo fa in una galassia lontana lontana... È un periodo di guerra civile. I Front-End non vogliono più scrivere il CSS e quando lo scrivono preferiscono Tailwind o usano Bootstrap, sui curriculum il CSS e i relativi pre-processori hanno sempre 5 stelline su 5, ma nella pratica sono in pochi a sapere e voler fare un front-end pixel-perfect. Perché succede e perché il termine Front-End Developer da solo non basta più? In questo talk esploreremo le mie personali esperienze negli anni e come la figura del Front-End Developer sia cambiata negli anni."
+        talk_description: "Vi siete mai chiesti come mai i Front-End non vogliono più scrivere il CSS? E perché quando lo scrivono preferiscono Tailwind o usano Bootstrap? Sui curriculum il CSS e i relativi pre-processori hanno sempre 5 stelline su 5, ma nella pratica sono in pochi a sapere e voler fare un front-end pixel-perfect. Perché succede e perché il termine Front-End Developer da solo non basta più? In questo talk esploreremo le mie personali esperienze negli anni e come la figura del Front-End Developer sia cambiata negli anni."
         speakers:
           speaker_1: *emanuelemacri
 
