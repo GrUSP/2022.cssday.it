@@ -11,22 +11,22 @@ sponsors_block_title: "Grazie ai nostri sponsor!"
 #    site_url: ""
 gold:
   sponsor1:
-    name: "Netcentric"
-    logo_filename: "netcentric.svg"
-    site_url: "https://www.netcentric.biz/"
-  sponsor2:
     name: "LPI"
     logo_filename: "lpi.png"
     site_url: "https://www.lpi.org/"
+  sponsor2:
+    name: "Netcentric"
+    logo_filename: "netcentric.svg"
+    site_url: "https://www.netcentric.biz/"
   sponsor3:
     name: "Workwave"
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"
-#silver:
-#  sponsor1:
-#    name: ""
-#    logo_filename: ""
-#    site_url: ""
+silver:
+  sponsor1:
+    name: "tot"
+    logo_filename: "tot.png"
+    site_url: "http://www.tot.money"
 bronze:
   sponsor1:
     name: "antreem"
