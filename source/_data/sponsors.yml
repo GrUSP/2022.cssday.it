@@ -4,11 +4,11 @@ sponsors_block_title: "Grazie ai nostri sponsor!"
 #    name: ""
 #    logo_filename: ""
 #    site_url: ""
-#platinum:
-#  sponsor1:
-#    name: ""
-#    logo_filename: ""
-#    site_url: ""
+diamond:
+  sponsor1:
+    name: "Accenture"
+    logo_filename: "accenture.png"
+    site_url: "http://accenture.it/"
 gold:
   sponsor1:
     name: "LPI"
@@ -33,14 +33,18 @@ bronze:
     logo_filename: "antreem.png"
     site_url: "https://antreem.com/it/"
   sponsor2:
+    name: "fabrico"
+    logo_filename: "fabrico.png"
+    site_url: "https://fabrico.digital/"
+  sponsor3:
     name: "injenia"
     logo_filename: "injenia.png"
     site_url: "https://injenia.it/"
-  sponsor3:
+  sponsor4:
     name: "MailUp"
     logo_filename: "mailup.svg"
     site_url: "https://www.mailup.it/?b=1&utm_source=grusp&utm_medium=sitoevento&utm_campaign=cssday"
-  sponsor4:
+  sponsor5:
     name: "stickermule"
     logo_filename: "stickermule.svg"
     site_url: "https://mule.to/p2gc"
