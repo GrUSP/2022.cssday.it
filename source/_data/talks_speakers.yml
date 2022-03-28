@@ -60,7 +60,7 @@ speaker_8: &andreaverlicchi
   speaker_name: Andrea Verlicchi
   speaker_pic_filename: andrea-verlicchi.png
   speaker_role: "Web Performance Engineer @ Netcentric"
-  speaker_bio: "Inizia la sua carriera come programmatore full-stack ed inizia a lavorare come front-end developer nel 2011 in YOOX NET-A-PORTER GROUP, dove poi diviene front-end architect ed in seguito, grazie alla sua passione per l'esperienza utente, si specializza nell'ottimizzazione delle performance web. Fan dell'open source e creatore di vanilla-lazyload, Andrea ha già partecipato come speaker ad un paio di edizioni di successo del CSS Day, oltre che che ad altre conferenze e meetup in Italia e all'estero."
+  speaker_bio: "Inizia la sua carriera nei primi anni 2000 come sviluppatore full-stack per poi specializzarsi via via sullo sviluppo front-end nei suoi vari aspetti. Fan del CSS, dell'open source e creatore di vanilla-lazyload, Andrea lavora oggi in Netcentric come specialista delle performance web. Come speaker ha già partecipato ad un paio di edizioni di successo del cssday, oltre che che ad altre conferenze e meetup in Italia e all'estero."
   speaker_github_url: "https://github.com/verlok"
   speaker_twitter_url: "https://twitter.com/verlok"
 speaker_9: &matteoguidotto
@@ -168,7 +168,7 @@ days:
         start_datetime: 2022-04-01T11:35+02:00
         end_datetime: 2022-04-01T12:15+02:00
         talk_title: "💫 Ottimizzazione immagini 4.0 (a data-driven + test-driven approach)"
-        talk_description: "Vi illustro la tecnica che ho utilizzato per ottimizzare le immagini a partire dai dati di risoluzione e densità schermo su alcuni dei nostri store ecommerce.
+        talk_description: "Vi illustro una tecnica ed un tool per ottimizzare le immagini a partire dai dati di risoluzione e densità schermo sui siti web.
         I risultati sono:
         <ul>
         <li>-	un codice HTML molto più leggero; </li>
