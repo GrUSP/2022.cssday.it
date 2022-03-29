@@ -24,7 +24,7 @@ speaker_3: &giuseppecaruso
   speaker_in_speaker_lists: true
   speaker_name: Giuseppe Caruso
   speaker_pic_filename: giuseppe-caruso.png
-  speaker_role: "Software Engineer @ Smartly.io"
+  speaker_role: "Software Engineer @ Grid.app"
   speaker_bio: "Mi occupo di sviluppo web da quando il framework più usato per il front-end erano le tabelle e spacer.gif non era ancora un ricordo. Oggi mi occupo perlopiù di sviluppo di Design System, web semantico, accessibilità, e relative architetture."
   speaker_github_url: "https://github.com/carusog"
   speaker_twitter_url: "https://twitter.com/bonsaistudio"
